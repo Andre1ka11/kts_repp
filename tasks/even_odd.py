@@ -13,6 +13,8 @@ def even_odd(numbers: list[int]) -> float:
     odd_sum = sum(num for num in numbers if num % 2 != 0)
 
 
+
+
     if odd_sum == 0:
         return 0.0
     
