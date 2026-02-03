@@ -21,6 +21,7 @@ def flip_kv_vk(d: dict[KT, KV]) -> dict[KV, KT]:
             'Москва': 'moscow',
         }
     """
+    
     result: dict[KV, KT] = {}
     for key, value in d.items():
         result[value] = key
