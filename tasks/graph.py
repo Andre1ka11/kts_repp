@@ -41,6 +41,7 @@ class Graph:
                 for neighbor in node.outbound:
                     _dfs(neighbor)
         
+        
         _dfs(self._root)
         return visited
 
