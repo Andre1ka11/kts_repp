@@ -21,4 +21,5 @@ def cartesian_product(arr1: list[T1], arr2: list[T2]) -> list[tuple[T1, T2]]:
         for y in arr2:
             result.append((x, y))
     
+    
     return result
